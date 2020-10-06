@@ -1,0 +1,12 @@
+[package]
+name = "riiload"
+version = "0.1.0"
+authors = ["Marime Gui <lepro.guillaume@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dirs = "3.0.1"
+structopt = "0.3.17"
+wiiload-proto = { git = "https://github.com/MarimeGui/wiiload-proto.git" }
